@@ -10,7 +10,7 @@ export interface Props {
    * @title Filter Group
    * @description Select a filter group to update.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableFiltersGroups.ts
+   * @options electrolux-components/loaders/product/avaliableFiltersGroups.ts
    */
   filterIdentifier: string;
   /**

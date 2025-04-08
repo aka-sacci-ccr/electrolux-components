@@ -48,7 +48,7 @@ export default function CommentResult(
             "btn btn-ghost w-full sm:w-max self-center",
             styling.pagination,
           )}
-          hx-post={useComponent<Props>(import.meta.url, {
+          hx-post={useComponent<Props>(import.meta.filename as string, {
             page,
             commentsPerPage,
             commentsPage: commentsPage + 1,

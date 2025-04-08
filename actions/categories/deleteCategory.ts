@@ -11,7 +11,7 @@ export interface Props {
    * @title Category
    * @description Select a category to delete.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableCategories.ts
+   * @options electrolux-components/loaders/product/avaliableCategories.ts
    */
   categoryIdentifier: string;
 }

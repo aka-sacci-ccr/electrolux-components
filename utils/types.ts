@@ -210,7 +210,7 @@ export interface Category {
    * @title Category father
    * @description Select an category to be superior to this category.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableCategories.ts
+   * @options electrolux-components/loaders/product/avaliableCategories.ts
    */
   subjectOf?: string;
   /**
@@ -232,7 +232,7 @@ export interface ProductCategory {
   /**
    * @title Category ID
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableCategories.ts
+   * @options electrolux-components/loaders/product/avaliableCategories.ts
    */
   subjectOf: string;
 }
@@ -258,7 +258,7 @@ export interface Product {
   /**
    * @title Brand
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableBrands.ts
+   * @options electrolux-components/loaders/product/avaliableBrands.ts
    */
   brand: string;
   /**
@@ -353,7 +353,7 @@ export interface AdditionalProperty {
    * @title Filter Group
    * @description To use this property as a filter, you need to select a filter group.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableFiltersGroups.ts
+   * @options electrolux-components/loaders/product/avaliableFiltersGroups.ts
    */
   additionalType?: string;
   /**
@@ -439,7 +439,7 @@ export interface AvaliableIn {
   /**
    * @title Site
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSites.ts
+   * @options electrolux-components/loaders/product/avaliableSites.ts
    */
   domain: string;
 }

@@ -12,7 +12,7 @@ export interface Props {
    * @title Sku
    * @description This action will update the descriptions of the product. Existing descriptions will be overwritten.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSkus.ts
+   * @options electrolux-components/loaders/product/avaliableSkus.ts
    */
   sku: string;
   /**

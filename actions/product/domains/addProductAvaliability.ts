@@ -10,7 +10,7 @@ export interface Props {
    * @title Sku
    * @description This action will add new domains to the product in order to make it available in the given domains. No avaliability options will be removed or overwritten.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSkus.ts
+   * @options electrolux-components/loaders/product/avaliableSkus.ts
    */
   sku: string;
   /**

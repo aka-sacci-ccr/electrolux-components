@@ -11,7 +11,7 @@ export interface Props {
    * @title Sku
    * @description This action will update the measurements of a product.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSkus.ts
+   * @options electrolux-components/loaders/product/avaliableSkus.ts
    */
   sku: string;
   /**

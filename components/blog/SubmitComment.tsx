@@ -214,7 +214,7 @@ export default function SubmitComment(
         hx-indicator="this"
         hx-disabled-elt="this"
         hx-swap="outerHTML"
-        hx-post={useComponent<Props>(import.meta.url, {
+        hx-post={useComponent<Props>(import.meta.filename as string, {
           ...props,
         })}
       >
