@@ -12,7 +12,7 @@ export interface Props {
    * @title Sku
    * @description This action will add new additional properties to the product. No additional properties will be removed or overwritten.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSkus.ts
+   * @options electrolux-components/loaders/product/avaliableSkus.ts
    */
   sku: string;
   /**

@@ -12,7 +12,7 @@ export interface Props extends Omit<Category, "identifier"> {
    * @title Category
    * @description Select a category to update.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableCategories.ts
+   * @options electrolux-components/loaders/product/avaliableCategories.ts
    */
   categoryIdentifier: string;
 }

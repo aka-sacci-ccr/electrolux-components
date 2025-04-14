@@ -12,7 +12,7 @@ export interface Props {
    * @title Sku
    * @description This action will update the avaliability of the product in the given domains. Existing avaliability options will be overwritten.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSkus.ts
+   * @options electrolux-components/loaders/product/avaliableSkus.ts
    */
   sku: string;
   /**

@@ -9,7 +9,7 @@ export const useToast = (
 ): Record<string, string> => {
   return {
     "hx-post": useComponent(
-      import.meta.resolve("./../components/ui/Toast.tsx"),
+      `${import.meta.dirname}/../components/ui/Toast.tsx`,
       { text, time, type },
     ),
     "hx-trigger": trigger ?? "click",

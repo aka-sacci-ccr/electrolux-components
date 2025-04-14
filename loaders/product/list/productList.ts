@@ -41,7 +41,7 @@ interface ProductCategory {
   /**
    * @title Category ID
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableCategories.ts
+   * @options electrolux-components/loaders/product/avaliableCategories.ts
    */
   category: string;
   /**
@@ -58,7 +58,7 @@ interface NormalFilters extends BaseFilter {
   /**
    * @title Filter Key
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableFiltersGroups.ts
+   * @options electrolux-components/loaders/product/avaliableFiltersGroups.ts
    */
   filter: string;
 }

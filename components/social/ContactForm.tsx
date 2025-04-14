@@ -19,6 +19,7 @@ import { useComponent } from "../../sections/Component.tsx";
 import { SubmitContactFormProps } from "../../utils/types.ts";
 import { AppContext } from "../../mod.ts";
 import { useToast } from "../../sdk/useToast.ts";
+const thisSection = import.meta.filename;
 
 export interface Props {
   countries: string[];
@@ -220,7 +221,7 @@ export default function ContactForm({
         hx-indicator="this"
         hx-disabled-elt="this"
         hx-swap="outerHTML"
-        hx-post={useComponent<Props>(import.meta.url, {
+        hx-post={useComponent<Props>(thisSection, {
           countries,
           subjects,
           textareaProps,
@@ -473,7 +474,7 @@ export async function action(props: Props, req: Request, ctx: AppContext) {
   const form = await req.formData();
   const formDataObject = Object.fromEntries(form) as SubmitContactFormProps;
   const formResult = await ctx.invoke(
-    "elux-components-app/actions/contact/submit.ts",
+    "electrolux-components/actions/contact/submit.ts",
     { ...formDataObject, status: "submitted" },
   );
 

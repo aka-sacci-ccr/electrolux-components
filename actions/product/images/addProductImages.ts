@@ -13,7 +13,7 @@ export interface Props {
    * @title Sku
    * @description This action will add new images to the product. No images will be removed or overwritten.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSkus.ts
+   * @options electrolux-components/loaders/product/avaliableSkus.ts
    */
   sku: string;
   /**

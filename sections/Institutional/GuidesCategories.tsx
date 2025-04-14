@@ -66,9 +66,8 @@ interface SearchSection {
   modalProps: ModalProps;
 }
 
-const Component = import.meta.resolve(
-  "../../components/guides/SearchResult.tsx",
-);
+const Component =
+  `${import.meta.dirname}/../../components/guides/SearchResult.tsx`;
 
 export const loader = (props: Props, req: Request, ctx: AppContext) => {
   return {

@@ -45,7 +45,7 @@ export function useComponent<T = Record<string, unknown>>(
     props: {
       props,
       component: component.replace(ROOT, ""),
-      __resolveType: "elux-components-app/sections/Component.tsx",
+      __resolveType: "electrolux-components/sections/Component.tsx",
     },
   });
 }

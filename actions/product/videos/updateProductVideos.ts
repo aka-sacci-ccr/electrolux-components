@@ -13,7 +13,7 @@ export interface Props {
    * @title Sku
    * @description This action will update the videos of the product. Existing videos will be overwritten.
    * @format dynamic-options
-   * @options elux-components-app/loaders/product/avaliableSkus.ts
+   * @options electrolux-components/loaders/product/avaliableSkus.ts
    */
   sku: string;
   /**

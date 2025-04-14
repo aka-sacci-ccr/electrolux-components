@@ -79,107 +79,109 @@ import * as $$$$$$26 from "./sections/Social/ContactForm.tsx";
 
 const manifest = {
   "loaders": {
-    "elux-components-app/loaders/guides/categories.ts": $$$0,
-    "elux-components-app/loaders/guides/productDocuments.ts": $$$1,
-    "elux-components-app/loaders/guides/products.ts": $$$2,
-    "elux-components-app/loaders/guides/suggestions.ts": $$$3,
-    "elux-components-app/loaders/menu.ts": $$$4,
-    "elux-components-app/loaders/product/avaliableBrands.ts": $$$5,
-    "elux-components-app/loaders/product/avaliableCategories.ts": $$$6,
-    "elux-components-app/loaders/product/avaliableFiltersGroups.ts": $$$7,
-    "elux-components-app/loaders/product/avaliableSites.ts": $$$8,
-    "elux-components-app/loaders/product/avaliableSkus.ts": $$$9,
-    "elux-components-app/loaders/product/details/productDetails.ts": $$$10,
-    "elux-components-app/loaders/product/list/productList.ts": $$$11,
-    "elux-components-app/loaders/product/listing/productListing.ts": $$$12,
-    "elux-components-app/loaders/testShelf.ts": $$$13,
-    "elux-components-app/loaders/whereToBuy.ts": $$$14,
+    "electrolux-components/loaders/guides/categories.ts": $$$0,
+    "electrolux-components/loaders/guides/productDocuments.ts": $$$1,
+    "electrolux-components/loaders/guides/products.ts": $$$2,
+    "electrolux-components/loaders/guides/suggestions.ts": $$$3,
+    "electrolux-components/loaders/menu.ts": $$$4,
+    "electrolux-components/loaders/product/avaliableBrands.ts": $$$5,
+    "electrolux-components/loaders/product/avaliableCategories.ts": $$$6,
+    "electrolux-components/loaders/product/avaliableFiltersGroups.ts": $$$7,
+    "electrolux-components/loaders/product/avaliableSites.ts": $$$8,
+    "electrolux-components/loaders/product/avaliableSkus.ts": $$$9,
+    "electrolux-components/loaders/product/details/productDetails.ts": $$$10,
+    "electrolux-components/loaders/product/list/productList.ts": $$$11,
+    "electrolux-components/loaders/product/listing/productListing.ts": $$$12,
+    "electrolux-components/loaders/testShelf.ts": $$$13,
+    "electrolux-components/loaders/whereToBuy.ts": $$$14,
   },
   "sections": {
-    "elux-components-app/sections/blog/BlogListing.tsx": $$$$$$27,
-    "elux-components-app/sections/blog/BlogListingBreadcrumb.tsx": $$$$$$28,
-    "elux-components-app/sections/blog/BlogpostBanner.tsx": $$$$$$31,
-    "elux-components-app/sections/blog/BlogpostBreadcrumb.tsx": $$$$$$32,
-    "elux-components-app/sections/blog/BlogpostComments.tsx": $$$$$$33,
-    "elux-components-app/sections/blog/BlogpostContent.tsx": $$$$$$34,
-    "elux-components-app/sections/blog/BlogSearch.tsx": $$$$$$29,
-    "elux-components-app/sections/blog/BlogShelf.tsx": $$$$$$30,
-    "elux-components-app/sections/Component.tsx": $$$$$$0,
-    "elux-components-app/sections/container/Container.tsx": $$$$$$35,
-    "elux-components-app/sections/Content/Banner.tsx": $$$$$$1,
-    "elux-components-app/sections/Content/Breadcrumb.tsx": $$$$$$2,
-    "elux-components-app/sections/Content/Cards.tsx": $$$$$$3,
-    "elux-components-app/sections/Content/CategoryCards.tsx": $$$$$$4,
-    "elux-components-app/sections/Content/HelpCards.tsx": $$$$$$5,
-    "elux-components-app/sections/Content/ImageCards.tsx": $$$$$$6,
-    "elux-components-app/sections/Content/RawText.tsx": $$$$$$7,
-    "elux-components-app/sections/Content/TextCards.tsx": $$$$$$8,
-    "elux-components-app/sections/Content/Toast.tsx": $$$$$$9,
-    "elux-components-app/sections/Footer/Footer.tsx": $$$$$$10,
-    "elux-components-app/sections/Header/Header.tsx": $$$$$$11,
-    "elux-components-app/sections/Images/BannersMatcher.tsx": $$$$$$12,
-    "elux-components-app/sections/Images/Carousel.tsx": $$$$$$13,
-    "elux-components-app/sections/Institutional/GuidesCategories.tsx": $$$$$$14,
-    "elux-components-app/sections/Institutional/GuidesDocuments.tsx": $$$$$$15,
-    "elux-components-app/sections/Institutional/GuidesProducts.tsx": $$$$$$16,
-    "elux-components-app/sections/Institutional/Policy.tsx": $$$$$$17,
-    "elux-components-app/sections/Institutional/Support.tsx": $$$$$$18,
-    "elux-components-app/sections/Institutional/WhereToBuy.tsx": $$$$$$19,
-    "elux-components-app/sections/PageView.tsx": $$$$$$20,
-    "elux-components-app/sections/Product/ProductDetails/ProductBannerMatcher.tsx":
+    "electrolux-components/sections/blog/BlogListing.tsx": $$$$$$27,
+    "electrolux-components/sections/blog/BlogListingBreadcrumb.tsx": $$$$$$28,
+    "electrolux-components/sections/blog/BlogpostBanner.tsx": $$$$$$31,
+    "electrolux-components/sections/blog/BlogpostBreadcrumb.tsx": $$$$$$32,
+    "electrolux-components/sections/blog/BlogpostComments.tsx": $$$$$$33,
+    "electrolux-components/sections/blog/BlogpostContent.tsx": $$$$$$34,
+    "electrolux-components/sections/blog/BlogSearch.tsx": $$$$$$29,
+    "electrolux-components/sections/blog/BlogShelf.tsx": $$$$$$30,
+    "electrolux-components/sections/Component.tsx": $$$$$$0,
+    "electrolux-components/sections/container/Container.tsx": $$$$$$35,
+    "electrolux-components/sections/Content/Banner.tsx": $$$$$$1,
+    "electrolux-components/sections/Content/Breadcrumb.tsx": $$$$$$2,
+    "electrolux-components/sections/Content/Cards.tsx": $$$$$$3,
+    "electrolux-components/sections/Content/CategoryCards.tsx": $$$$$$4,
+    "electrolux-components/sections/Content/HelpCards.tsx": $$$$$$5,
+    "electrolux-components/sections/Content/ImageCards.tsx": $$$$$$6,
+    "electrolux-components/sections/Content/RawText.tsx": $$$$$$7,
+    "electrolux-components/sections/Content/TextCards.tsx": $$$$$$8,
+    "electrolux-components/sections/Content/Toast.tsx": $$$$$$9,
+    "electrolux-components/sections/Footer/Footer.tsx": $$$$$$10,
+    "electrolux-components/sections/Header/Header.tsx": $$$$$$11,
+    "electrolux-components/sections/Images/BannersMatcher.tsx": $$$$$$12,
+    "electrolux-components/sections/Images/Carousel.tsx": $$$$$$13,
+    "electrolux-components/sections/Institutional/GuidesCategories.tsx":
+      $$$$$$14,
+    "electrolux-components/sections/Institutional/GuidesDocuments.tsx":
+      $$$$$$15,
+    "electrolux-components/sections/Institutional/GuidesProducts.tsx": $$$$$$16,
+    "electrolux-components/sections/Institutional/Policy.tsx": $$$$$$17,
+    "electrolux-components/sections/Institutional/Support.tsx": $$$$$$18,
+    "electrolux-components/sections/Institutional/WhereToBuy.tsx": $$$$$$19,
+    "electrolux-components/sections/PageView.tsx": $$$$$$20,
+    "electrolux-components/sections/Product/ProductDetails/ProductBannerMatcher.tsx":
       $$$$$$21,
-    "elux-components-app/sections/Product/ProductDetails/ProductBreadcrumb.tsx":
+    "electrolux-components/sections/Product/ProductDetails/ProductBreadcrumb.tsx":
       $$$$$$22,
-    "elux-components-app/sections/Product/ProductDetails/ProductPage.tsx":
+    "electrolux-components/sections/Product/ProductDetails/ProductPage.tsx":
       $$$$$$23,
-    "elux-components-app/sections/Product/ProductListing/ProductListingPage.tsx":
+    "electrolux-components/sections/Product/ProductListing/ProductListingPage.tsx":
       $$$$$$24,
-    "elux-components-app/sections/Product/ProductShelf/ProductShelf.tsx":
+    "electrolux-components/sections/Product/ProductShelf/ProductShelf.tsx":
       $$$$$$25,
-    "elux-components-app/sections/Social/ContactForm.tsx": $$$$$$26,
+    "electrolux-components/sections/Social/ContactForm.tsx": $$$$$$26,
   },
   "actions": {
-    "elux-components-app/actions/categories/createCategory.ts": $$$$$$$$$0,
-    "elux-components-app/actions/categories/deleteCategory.ts": $$$$$$$$$1,
-    "elux-components-app/actions/categories/updateCategory.ts": $$$$$$$$$2,
-    "elux-components-app/actions/contact/submit.ts": $$$$$$$$$3,
-    "elux-components-app/actions/filters/createFilters.ts": $$$$$$$$$4,
-    "elux-components-app/actions/filters/updateFilter.ts": $$$$$$$$$5,
-    "elux-components-app/actions/product/additionalProperties/addAdditionalProperties.ts":
+    "electrolux-components/actions/categories/createCategory.ts": $$$$$$$$$0,
+    "electrolux-components/actions/categories/deleteCategory.ts": $$$$$$$$$1,
+    "electrolux-components/actions/categories/updateCategory.ts": $$$$$$$$$2,
+    "electrolux-components/actions/contact/submit.ts": $$$$$$$$$3,
+    "electrolux-components/actions/filters/createFilters.ts": $$$$$$$$$4,
+    "electrolux-components/actions/filters/updateFilter.ts": $$$$$$$$$5,
+    "electrolux-components/actions/product/additionalProperties/addAdditionalProperties.ts":
       $$$$$$$$$6,
-    "elux-components-app/actions/product/additionalProperties/updateAdditionaProperties.ts":
+    "electrolux-components/actions/product/additionalProperties/updateAdditionaProperties.ts":
       $$$$$$$$$7,
-    "elux-components-app/actions/product/categories/addProductCategories.ts":
+    "electrolux-components/actions/product/categories/addProductCategories.ts":
       $$$$$$$$$8,
-    "elux-components-app/actions/product/categories/updateProductCategories.ts":
+    "electrolux-components/actions/product/categories/updateProductCategories.ts":
       $$$$$$$$$9,
-    "elux-components-app/actions/product/createProduct.ts": $$$$$$$$$10,
-    "elux-components-app/actions/product/descriptions/addProductDescriptions.ts":
+    "electrolux-components/actions/product/createProduct.ts": $$$$$$$$$10,
+    "electrolux-components/actions/product/descriptions/addProductDescriptions.ts":
       $$$$$$$$$11,
-    "elux-components-app/actions/product/descriptions/updateProductDescriptions.ts":
+    "electrolux-components/actions/product/descriptions/updateProductDescriptions.ts":
       $$$$$$$$$12,
-    "elux-components-app/actions/product/documents/addDocuments.ts":
+    "electrolux-components/actions/product/documents/addDocuments.ts":
       $$$$$$$$$13,
-    "elux-components-app/actions/product/documents/updateDocuments.ts":
+    "electrolux-components/actions/product/documents/updateDocuments.ts":
       $$$$$$$$$14,
-    "elux-components-app/actions/product/domains/addProductAvaliability.ts":
+    "electrolux-components/actions/product/domains/addProductAvaliability.ts":
       $$$$$$$$$15,
-    "elux-components-app/actions/product/domains/updateProductAvaliability.ts":
+    "electrolux-components/actions/product/domains/updateProductAvaliability.ts":
       $$$$$$$$$16,
-    "elux-components-app/actions/product/images/addProductImages.ts":
+    "electrolux-components/actions/product/images/addProductImages.ts":
       $$$$$$$$$17,
-    "elux-components-app/actions/product/images/updateProductImages.ts":
+    "electrolux-components/actions/product/images/updateProductImages.ts":
       $$$$$$$$$18,
-    "elux-components-app/actions/product/measurements/updateMeasurements.ts":
+    "electrolux-components/actions/product/measurements/updateMeasurements.ts":
       $$$$$$$$$19,
-    "elux-components-app/actions/product/updateProductBasicData.ts":
+    "electrolux-components/actions/product/updateProductBasicData.ts":
       $$$$$$$$$20,
-    "elux-components-app/actions/product/videos/addProductVideos.ts":
+    "electrolux-components/actions/product/videos/addProductVideos.ts":
       $$$$$$$$$21,
-    "elux-components-app/actions/product/videos/updateProductVideos.ts":
+    "electrolux-components/actions/product/videos/updateProductVideos.ts":
       $$$$$$$$$22,
   },
-  "name": "elux-components-app",
+  "name": "electrolux-components",
   "baseUrl": import.meta.url,
 };
 
